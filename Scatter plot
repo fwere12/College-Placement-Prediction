@@ -1,1 +1,5 @@
 plt.scatter(df['cgpa'],df['iq'], c=df['placement'])
+plt.xlabel('CGPA')
+plt.ylabel('IQ')
+plt.title('CGPA vs IQ')
+plt.show()
