@@ -1,0 +1,1 @@
+plt.scatter(df['cgpa'],df['iq'], c=df['placement'])
