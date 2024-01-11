@@ -1,0 +1,3 @@
+#Pickle is library used for to make file of trained model to use it in many place
+import pickle
+pickle.dump(clf, open('College Placement Prediction.pkl', 'wb'))
